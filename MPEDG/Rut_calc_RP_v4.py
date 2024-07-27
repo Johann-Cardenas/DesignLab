@@ -174,7 +174,8 @@ def Unboundrutting(struct, temperature, FER, Single, Tandem, InputMat, rutB, rut
         RutprevB = rutB[ii,:]
         RutprevB = RutAccumUB(sublayerB[ii],E22B_ref, E_br, 20, 2.03,5*sum(InputMat),RutprevB)        
         rutB[ii,:] = RutprevB
-        
+    if temperature == 'T1':
+        E_r = 10000
     if temperature == 'T2':
         E_r = 10000
     elif temperature == 'T3':

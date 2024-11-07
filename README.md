@@ -1,8 +1,9 @@
 # DesignLab
-A hub for cutting-edge ideas in flexible pavement design. Includes tools that generate detailed visualizations of pavement cross-sections.
+A hub for experimental ideas in flexible pavement design analysis and data visualization.
 Here are my Python scripts to:
 - Build IRI progression models (Linear and Bilinear)
 - Calculate Number of Repetitions (N) based on the MPEDG transfer functions.
+- Estimate Distress Ratios, Cumulative Distress Ratios and Equivalent Truck Numbers.
 
 > [!IMPORTANT]
 > Although I am pleased to share my codes with the broader community for education, research and development purposes, I do not take any responsibility for the results obtained. You are fully responsible for your results.
@@ -38,8 +39,6 @@ Some of the scripts might contain additional instructions within the code to be 
 
 - [ ] **Plot_Depth.py:**
 - [ ] **Plot_Main.py:**
-- [ ] **Plot_U2.py:**
-- [ ] **Plot_U2_Animation.py:**
 
 > [!TIP]
 > By default, the code outputs a set of plots for each time step. To output a single plot, uncomment the corresponding line in the code.
